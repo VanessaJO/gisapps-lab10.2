@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <title>lab 10.2</title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <!--  You need to include references here to your very own javascript and style\css files just like you do for the APIs etc.  -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+              integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+              crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+                integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+                crossorigin=""></script>
+        <link rel="stylesheet" href="style/lab10.2.css" />
+        <script src="js/lab10.2.js"></script>
+    </head>
+
+    <body>
+        <div id="map">
+            <div id="whereIsThis" class="floater"></div>
+            <div id="buttonContainer" class="floater">
+                <button id="goToFRCCBoulder">
+                    <img src="https://www.frontrange.edu/Content/Icons/favicon.ico">Campus</button>
+                <button id="goToRMNP">
+                    <img src="https://www.nps.gov/common/commonspot/templates/images/icons/favicon.ico">RMNP</button>
+                <button id="goToCraterLake">
+                    <img src="http://frccbcc.maps.arcgis.com/sharing/rest/content/items/0d7de302cb03492c8ae31a0a6a2a0172/data">Crater Lake<br>Indian Peaks</button>
+            </div>
+        </div>
+    </body>
+</html>
